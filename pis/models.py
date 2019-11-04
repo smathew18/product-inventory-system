@@ -43,7 +43,7 @@ class PurchaseOrder(models.Model):
     numberordered = models.IntegerField()
 
     def __str__(self):
-        return str(self.numberordered)
+        return str(self.orderId)
 
 
 class BillingOrder(models.Model):
