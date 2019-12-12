@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a8044400-520e-415a-95ba-c473e87bc269" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pis/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pis/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pis/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/migrations/0002_auto_20191207_0031.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/migrations/0003_auto_20191207_2340.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/migrations/0004_auto_20191207_2354.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/migrations/0005_auto_20191208_0008.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/migrations/0006_auto_20191212_0057.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <workItem from="1575928194974" duration="582000" />
       <workItem from="1576028692408" duration="3349000" />
       <workItem from="1576127206493" duration="7983000" />
-      <workItem from="1576168431753" duration="2715000" />
+      <workItem from="1576168431753" duration="4483000" />
     </task>
     <servers />
   </component>
