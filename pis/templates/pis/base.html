@@ -1,0 +1,172 @@
+
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <title>Product Inventory Management System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+
+        body {
+            background-color: #7abaff;
+        }
+
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {
+            height: 100%;
+        }
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            background-color: #6f42c1;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #005cbf;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body id="app-layout">
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+            <!-- Collapsed Hamburger -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#myNavbar">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li style="padding-left: 50px">
+                    <a class="navbar-brand"  href="/"><img width="72px" height="34px" src="{% static "images/Logo.png" %}"> </a>
+                        <a class ="navbar-brand" href="/" id="pis"><b>Product Inventory Management System</b></a>
+                </li>
+
+                {% if user.groups.all.0.name == "Supplier" %}
+                    <li><a href="{% url 'pis:purchaseorder_list' %}">Purchase Orders</a></li>
+                    <li><a href="{% url 'pis:billingorder_list' %}">Billing Orders</a></li>
+                {% else %}
+                <li><a href="{% url 'pis:product_list' %}">Products</a></li>
+                <li><a href="{% url 'pis:supplier_list' %}">Suppliers</a></li>
+                <li><a href="{% url 'pis:purchaseorder_list' %}">Purchase Orders</a></li>
+                <li><a href="{% url 'pis:billingorder_list' %}">Billing Orders</a></li>
+            {% endif %}
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                {% if user.is_authenticated %}
+                     <a class="navbar-brand" href="#">{{user.username }}</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{% url 'logout' %}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                            <li><a href="{% url 'pis:password_change' %}"><i class="fa fa-btn fa-sign-out"></i>Change Password</a></li>
+                        </ul>
+                    </li>
+                {% else %}
+                    <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="content container">
+
+
+    <div class="row">
+        <div class="col-md-8">
+            {% block content %}
+                <div class="links">
+                    <!-- Example row of columns -->
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="{% static "images/products.jpg" %}" alt="product"/>
+                                <div class="caption">
+                                    <h2>Products</h2>
+                                    {% if user.is_authenticated %}
+                                        <p><a class="btn btn-default" href="{% url 'pis:product_list' %}"
+                                              role="button">View
+                                            product details </a></p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="{% static "images/supplier.jpg" %}" alt="supplier"/>
+                                <div class="caption">
+                                    <h2>Suppliers</h2>
+                                    <p><a class="btn btn-default" href="{% url 'pis:supplier_list' %}"
+                                           role="button">View
+                                        supplier details </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="{% static "images/purchase-order.jpg" %}" alt="purchaseorder"/>
+                                <div class="caption">
+                                    <h2>Purchase Orders</h2>
+                                    <p><a class="btn btn-default" href="{% url 'pis:purchaseorder_list' %}" role="button">View
+                                        purchase order details </a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                     <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="{% static "images/billingorder.jpg" %}" alt="billingorder"/>
+                                <div class="caption">
+                                    <h2>Billing Orders</h2>
+                                    <p><a class="btn btn-default" href="{% url 'pis:billingorder_list' %}" role="button">View
+                                        billing order details</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>

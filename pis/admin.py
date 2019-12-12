@@ -17,13 +17,13 @@ class SupplierList(admin.ModelAdmin):
     ordering = ['suppliername']
 
 class PurchaseOrderList(admin.ModelAdmin):
-    list_display = ( 'productname', 'purchaseorderdate','numberordered')
+    list_display = ( 'productname','numberordered')
     list_filter = ( 'productname', 'numberordered')
     search_fields = ('productname', )
-    ordering = ['purchaseorderdate']
+    ordering = ['productname']
 
 class BillingOrderList(admin.ModelAdmin):
-    list_display = ( 'billdate','billno')
+    list_display = ( 'billstatus','billno')
     list_filter = ( 'billno','billstatus')
     search_fields = ( 'billno', )
     ordering = ['billno']

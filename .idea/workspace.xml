@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8044400-520e-415a-95ba-c473e87bc269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pis/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +21,10 @@
   <component name="ProjectId" id="1T829pd0y9lvzI8X4rlcRmRei1s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/ASADProject/8220f19Team3App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +73,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572827252598</updated>
-      <workItem from="1572827262214" duration="14477000" />
+      <workItem from="1572827262214" duration="15356000" />
+      <workItem from="1572933306729" duration="597000" />
+      <workItem from="1572999207587" duration="1419000" />
+      <workItem from="1573074563147" duration="2232000" />
+      <workItem from="1573083436722" duration="22000" />
+      <workItem from="1574131334864" duration="609000" />
+      <workItem from="1575659938723" duration="21372000" />
+      <workItem from="1575741208877" duration="1012000" />
+      <workItem from="1575782291481" duration="4175000" />
+      <workItem from="1575833088481" duration="14212000" />
+      <workItem from="1575855360243" duration="11876000" />
+      <workItem from="1575928194974" duration="582000" />
+      <workItem from="1576028692408" duration="3349000" />
+      <workItem from="1576127206493" duration="7983000" />
+      <workItem from="1576168431753" duration="2715000" />
     </task>
     <servers />
   </component>
@@ -81,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

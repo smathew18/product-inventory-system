@@ -1,0 +1,10 @@
+{% extends 'pis/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+    <h1>Edit Billing Order</h1>
+    <form method="POST" class="billingorder-form">{% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit"  class="save btn btn-primary">Update</button>
+    </form>
+{% endblock %}

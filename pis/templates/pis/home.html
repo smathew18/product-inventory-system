@@ -1,0 +1,70 @@
+{% extends 'pis/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+   <body>
+    <html>
+            {% if user.is_authenticated %}
+                <br>
+
+                <div class="page-container">
+                    <p><b>Please select below options.</b></p>
+                <br>
+                </div>
+            {% endif %}
+            <div class="content container" style="min-height: 95%">
+                <div class="row">
+                    <div class="col-md-12">
+                                <div class="row">
+                                    {% if user.groups.all.0.name != "Supplier" %}
+                                    <div class="col-md-3">
+                                    <div class="thumbnail" >
+                                        <img src="{% static "images/products.jpg" %}" alt="product"/>
+                                        <br>
+                                            <p align="center"><a class="btn btn-primary" href="{% url 'pis:product_list' %}"
+                                                  role="button">View
+                                               product details</a></p>
+
+                                    </div>
+                                    </div>
+                                      <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="{% static "images/supplier.jpg" %}" alt="supplier"/>
+                                        <br>
+                                            <p align="center"><a class="btn btn-primary" href="{% url 'pis:supplier_list' %}"
+                                                  role="button">View
+                                                supplier details </a></p>
+
+                                    </div></div>
+                                    {% endif %}
+
+                                      <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="{% static "images/purchase-order.jpg" %}" alt="purchaseorder"/>
+                                        <br>
+                                            <p align="center"><a class="btn btn-primary" href="{% url 'pis:purchaseorder_list' %}"
+                                                  role="button">View
+                                                purchase order details</a></p>
+
+                                    </div>
+                                      </div>
+
+                                      <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="{% static "images/billingorder.jpg" %}" alt="billingorder"/>
+                                        <br>
+                                            <p align="center"><a class="btn btn-primary" href="{% url 'pis:billingorder_list' %}"
+                                                  role="button">View
+                                                billing order details </a></p>
+
+                                    </div>
+                                      </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+    </html>
+    </body>
+
+
+{% endblock %}
