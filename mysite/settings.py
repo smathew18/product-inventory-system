@@ -26,7 +26,7 @@ SECRET_KEY = 'f@7l9s%=d@&-p3*fxr0rs3g$$jb01+d)=o9gadgdb#$!_isfe!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['pis-assignment4.herokuapp.com']
 
 
 # Application definition
