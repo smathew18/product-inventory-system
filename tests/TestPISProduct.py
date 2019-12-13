@@ -51,7 +51,7 @@ class TestPISProduct(unittest.TestCase):
 
         # xpath, clicks on save button for add product
         elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on edit product button
 
@@ -69,14 +69,14 @@ class TestPISProduct(unittest.TestCase):
 
         # xpath, clicks on update button for edit product
         elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on delete product button
         elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/table/tbody/tr[2]/td[8]/a").click()
         time.sleep(2)
 
         driver.switch_to.alert.accept()
-        time.sleep(5)
+        time.sleep(2)
 
     def tearDown(self):
         self.driver.close()

@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a8044400-520e-415a-95ba-c473e87bc269" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestPISAdminSuite .py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISAdminSuite .py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestPISBillingOrders.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISBillingOrders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestPISBillingOrdersAdmin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISBillingOrdersAdmin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestPISLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestPISLoginAdmin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISLoginAdmin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestPISProduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISProduct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestPISProductAdmin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISProductAdmin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestPISPurchaseOrders.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISPurchaseOrders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestPISSuite.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISSuite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestPISSuppliers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISSuppliers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestPISPurchaseOrdersAdmin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISPurchaseOrdersAdmin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestPISSuppliersAdmin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestPISSuppliersAdmin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +189,7 @@
       <workItem from="1575928194974" duration="582000" />
       <workItem from="1576028692408" duration="3349000" />
       <workItem from="1576127206493" duration="7983000" />
-      <workItem from="1576168431753" duration="37776000" />
+      <workItem from="1576168431753" duration="42263000" />
     </task>
     <servers />
   </component>
@@ -209,7 +211,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISLoginAdmin_TestPISLoginAdmin.coverage" NAME="Unittests for TestPISLoginAdmin.TestPISLoginAdmin Coverage Results" MODIFIED="1576213054759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/product_inventory_system$TestPISAdminSuite_.coverage" NAME="TestPISAdminSuite  Coverage Results" MODIFIED="1576227799568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$TestPISAdminSuite_.coverage" NAME="TestPISAdminSuite  Coverage Results" MODIFIED="1576233238989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISSuppliersAdmin_TestPISSuppliersAdmin.coverage" NAME="Unittests for TestPISSuppliersAdmin.TestPISSuppliersAdmin Coverage Results" MODIFIED="1576213934898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_in_TestPISLogin_py.coverage" NAME="Unittests in TestPISLogin.py Coverage Results" MODIFIED="1576207353760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISLogin_TestPISLogin.coverage" NAME="Unittests for TestPISLogin.TestPISLogin Coverage Results" MODIFIED="1576207985662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -219,7 +221,7 @@
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISProductAdmin_TestPISProductAdmin.coverage" NAME="Unittests for TestPISProductAdmin.TestPISProductAdmin Coverage Results" MODIFIED="1576213459312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISPurchaseOrdersAdmin_TestPISPurchaseOrdersAdmin.coverage" NAME="Unittests for TestPISPurchaseOrdersAdmin.TestPISPurchaseOrdersAdmin Coverage Results" MODIFIED="1576214664652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISBillingOrders_TestPISBillingOrders.coverage" NAME="Unittests for TestPISBillingOrders.TestPISBillingOrders Coverage Results" MODIFIED="1576214961500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/product_inventory_system$TestPISSuite.coverage" NAME="TestPISSuite Coverage Results" MODIFIED="1576228697107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$TestPISSuite.coverage" NAME="TestPISSuite Coverage Results" MODIFIED="1576233457819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISProduct_TestPISProduct.coverage" NAME="Unittests for TestPISProduct.TestPISProduct Coverage Results" MODIFIED="1576213305742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISBillingOrdersAdmin_TestPISBillingOrdersAdmin.coverage" NAME="Unittests for TestPISBillingOrdersAdmin.TestPISBillingOrdersAdmin Coverage Results" MODIFIED="1576219697380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>

@@ -53,7 +53,7 @@ class TestPISProductAdmin(unittest.TestCase):
         # xpath, clicks on save button for add product
 
         elem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/form/div/div/input[1]").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on product to edit
 
@@ -61,6 +61,8 @@ class TestPISProductAdmin(unittest.TestCase):
         time.sleep(2)
 
         # Edit product details
+        elem = driver.find_element_by_id("id_user")
+        elem.send_keys("instructor")
         elem = driver.find_element_by_id("id_productname")
         elem.clear()
         elem.send_keys("Google Pixel2")
@@ -72,7 +74,7 @@ class TestPISProductAdmin(unittest.TestCase):
         # xpath, clicks on save button for edit product
 
         elem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/form/div/div/input[1]").click()
-        time.sleep(5)
+        time.sleep(2)
 
     def tearDown(self):
         self.driver.close()

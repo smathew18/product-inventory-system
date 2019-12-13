@@ -37,7 +37,7 @@ class TestPISPurchaseOrdersAdmin(unittest.TestCase):
         elem = driver.find_element_by_id("id_user")
         elem.send_keys("instructor")
         elem = driver.find_element_by_id("id_orderId")
-        elem.send_keys("4")
+        elem.send_keys("2")
         elem = driver.find_element_by_id("id_productname")
         elem.send_keys("MacBook Pro")
         elem = driver.find_element_by_id("id_numberordered")

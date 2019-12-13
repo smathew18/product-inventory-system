@@ -40,7 +40,7 @@ class TestPISPurchaseOrders(unittest.TestCase):
         elem = driver.find_element_by_id("id_user")
         elem.send_keys("instructor")
         elem = driver.find_element_by_id("id_orderId")
-        elem.send_keys("4")
+        elem.send_keys("1")
         elem = driver.find_element_by_id("id_productname")
         elem.send_keys("MacBook Pro")
         elem = driver.find_element_by_id("id_numberordered")
@@ -51,7 +51,7 @@ class TestPISPurchaseOrders(unittest.TestCase):
         # xpath, clicks on save button for purchase order
 
         elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on edit purchase order button
         elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/table/tbody/tr/td[4]/a").click()
@@ -63,17 +63,17 @@ class TestPISPurchaseOrders(unittest.TestCase):
         elem.send_keys("30")
         time.sleep(1)
 
-        # xpath, clicks on update button for save supplier
+        # xpath, clicks on update button for save purchase order details
 
         elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on delete purchase order button
-        elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/table/tbody/tr[3]/td[7]/a").click()
+        elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/table/tbody/tr[2]/td[5]/a").click()
         time.sleep(2)
 
         driver.switch_to.alert.accept()
-        time.sleep(5)
+        time.sleep(2)
 
     def tearDown(self):
         self.driver.close()

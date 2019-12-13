@@ -22,7 +22,7 @@ class TestPISLoginAdmin(unittest.TestCase):
         elem.send_keys(Keys.RETURN)
         driver.get("https://pis-assignment4.herokuapp.com/admin/")
         assert "Logged In"
-        time.sleep(5)
+        time.sleep(2)
 
     def tearDown(self):
         self.driver.close()

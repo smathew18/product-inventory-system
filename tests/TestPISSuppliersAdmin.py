@@ -60,6 +60,8 @@ class TestPISSuppliersAdmin(unittest.TestCase):
         time.sleep(2)
 
         # Edit supplier details
+        elem = driver.find_element_by_id("id_user")
+        elem.send_keys("instructor")
         elem = driver.find_element_by_id("id_supplieraddress")
         elem.clear()
         elem.send_keys("8807 Q Street")

@@ -37,7 +37,7 @@ class TestPISBillingOrdersAdmin(unittest.TestCase):
 
         # fill the billing order details
         elem = driver.find_element_by_id("id_orderId")
-        elem.send_keys("4")
+        elem.send_keys("2")
         elem = driver.find_element_by_id("id_billno")
         elem.send_keys("12")
         elem = driver.find_element_by_id("id_billstatus")

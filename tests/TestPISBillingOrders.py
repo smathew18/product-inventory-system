@@ -48,7 +48,7 @@ class TestPISBillingOrders(unittest.TestCase):
         # xpath, clicks on save button for billing order
 
         elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on edit billing order button
         elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/table/tbody/tr/td[4]/a").click()
@@ -63,14 +63,14 @@ class TestPISBillingOrders(unittest.TestCase):
         # xpath, clicks on update button for billing order
 
         elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button").click()
-        time.sleep(5)
+        time.sleep(2)
 
         # xpath, clicks on delete billing order button
         elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/table/tbody/tr[2]/td[5]/a").click()
         time.sleep(2)
 
         driver.switch_to.alert.accept()
-        time.sleep(5)
+        time.sleep(2)
 
     def tearDown(self):
         self.driver.close()
