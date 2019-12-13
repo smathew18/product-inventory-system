@@ -20,8 +20,8 @@ class TestPISBillingOrdersAdmin(unittest.TestCase):
         elem = driver.find_element_by_id("id_password")
         elem.send_keys(pwd)
         elem.send_keys(Keys.RETURN)
-        driver.get("https://pis-assignment4.herokuapp.com/admin/pis/")
 
+        driver.get("https://pis-assignment4.herokuapp.com/admin/pis/")
         time.sleep(1)
 
 
