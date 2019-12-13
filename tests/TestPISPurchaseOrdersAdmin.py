@@ -1,0 +1,72 @@
+import unittest
+import time
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+
+class TestPISPurchaseOrdersAdmin(unittest.TestCase):
+
+    def setUp(self):
+        self.driver = webdriver.Chrome()
+
+    def test_pis(self):
+        user = "instructor"
+        pwd = "maverick1a"
+        driver = self.driver
+        driver.maximize_window()
+        driver.get("https://pis-assignment4.herokuapp.com/admin/login/?next=/admin/")
+        elem = driver.find_element_by_id("id_username")
+        elem.send_keys(user)
+        elem = driver.find_element_by_id("id_password")
+        elem.send_keys(pwd)
+        elem.send_keys(Keys.RETURN)
+        driver.get("https://pis-assignment4.herokuapp.com/admin/pis/")
+        time.sleep(1)
+
+        # Click on Purchaseorders tab
+        elem = driver.find_element_by_xpath("/html/body/div/div[3]/div/div/table/tbody/tr[3]/th/a")
+        elem.click()
+        time.sleep(1)
+
+        # Clicks on add purchase order button
+
+        elem = driver.find_element_by_xpath("/html/body/div/div[3]/div/ul/li/a").click()
+        time.sleep(2)
+
+        # fill the purchase order details
+        elem = driver.find_element_by_id("id_user")
+        elem.send_keys("instructor")
+        elem = driver.find_element_by_id("id_orderId")
+        elem.send_keys("4")
+        elem = driver.find_element_by_id("id_productname")
+        elem.send_keys("MacBook Pro")
+        elem = driver.find_element_by_id("id_numberordered")
+        elem.send_keys("20")
+
+        time.sleep(2)
+
+        # xpath, clicks on save button for purchase order
+        elem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/form/div/div/input[1]").click()
+        time.sleep(5)
+
+        # xpath, clicks on product name to edit
+        elem = driver.find_element_by_xpath("/html/body/div/div[3]/div/div/form/div[2]/table/tbody/tr/th/a").click()
+        time.sleep(2)
+
+        # Edit purchase order details
+        elem = driver.find_element_by_id("id_numberordered")
+        elem.clear()
+        elem.send_keys("30")
+        time.sleep(1)
+
+        # xpath, clicks on update button for save purchase order
+
+        elem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/form/div/div/input[1]").click()
+        time.sleep(5)
+
+
+    def tearDown(self):
+        self.driver.close()
+
+    if __name__ == "__main__":
+        unittest.main()

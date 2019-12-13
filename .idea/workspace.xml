@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a8044400-520e-415a-95ba-c473e87bc269" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pis/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pis/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for TestPISBillingOrdersAdmin.TestPISBillingOrdersAdmin">
     <configuration name="product_inventory_system" type="Python.DjangoServer" factoryName="Django server">
       <module name="product_inventory_system" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +59,90 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for TestPISBillingOrdersAdmin.TestPISBillingOrdersAdmin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="product_inventory_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestPISBillingOrdersAdmin.TestPISBillingOrdersAdmin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestPISBillingOrders.TestPISBillingOrders" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="product_inventory_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestPISBillingOrders.TestPISBillingOrders&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestPISPurchaseOrdersAdmin.TestPISPurchaseOrdersAdmin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="product_inventory_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestPISPurchaseOrdersAdmin.TestPISPurchaseOrdersAdmin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestPISPurchaseOrders.TestPISPurchaseOrders" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="product_inventory_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestPISPurchaseOrders.TestPISPurchaseOrders&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestPISSuppliersAdmin.TestPISSuppliersAdmin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="product_inventory_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestPISSuppliersAdmin.TestPISSuppliersAdmin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for TestPISBillingOrdersAdmin.TestPISBillingOrdersAdmin" />
+        <item itemvalue="Python tests.Unittests for TestPISBillingOrders.TestPISBillingOrders" />
+        <item itemvalue="Python tests.Unittests for TestPISPurchaseOrders.TestPISPurchaseOrders" />
+        <item itemvalue="Python tests.Unittests for TestPISPurchaseOrdersAdmin.TestPISPurchaseOrdersAdmin" />
+        <item itemvalue="Python tests.Unittests for TestPISSuppliersAdmin.TestPISSuppliersAdmin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,7 +168,7 @@
       <workItem from="1575928194974" duration="582000" />
       <workItem from="1576028692408" duration="3349000" />
       <workItem from="1576127206493" duration="7983000" />
-      <workItem from="1576168431753" duration="7223000" />
+      <workItem from="1576168431753" duration="28374000" />
     </task>
     <servers />
   </component>
@@ -102,5 +187,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISProductAdmin_TestPISProductAdmin.coverage" NAME="Unittests for TestPISProductAdmin.TestPISProductAdmin Coverage Results" MODIFIED="1576213459312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISLoginAdmin_TestPISLoginAdmin.coverage" NAME="Unittests for TestPISLoginAdmin.TestPISLoginAdmin Coverage Results" MODIFIED="1576213054759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISPurchaseOrdersAdmin_TestPISPurchaseOrdersAdmin.coverage" NAME="Unittests for TestPISPurchaseOrdersAdmin.TestPISPurchaseOrdersAdmin Coverage Results" MODIFIED="1576214664652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISSuppliersAdmin_TestPISSuppliersAdmin.coverage" NAME="Unittests for TestPISSuppliersAdmin.TestPISSuppliersAdmin Coverage Results" MODIFIED="1576213934898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_in_TestPISLogin_py.coverage" NAME="Unittests in TestPISLogin.py Coverage Results" MODIFIED="1576207353760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISBillingOrders_TestPISBillingOrders.coverage" NAME="Unittests for TestPISBillingOrders.TestPISBillingOrders Coverage Results" MODIFIED="1576214961500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISLogin_TestPISLogin.coverage" NAME="Unittests for TestPISLogin.TestPISLogin Coverage Results" MODIFIED="1576207985662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISLogin_TestPISLogin_test_pis.coverage" NAME="Unittests for TestPISLogin.TestPISLogin.test_pis Coverage Results" MODIFIED="1576207604897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISProduct_TestPISProduct.coverage" NAME="Unittests for TestPISProduct.TestPISProduct Coverage Results" MODIFIED="1576213305742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISSuppliers_TestPISSuppliers.coverage" NAME="Unittests for TestPISSuppliers.TestPISSuppliers Coverage Results" MODIFIED="1576213631838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISBillingOrdersAdmin_TestPISBillingOrdersAdmin.coverage" NAME="Unittests for TestPISBillingOrdersAdmin.TestPISBillingOrdersAdmin Coverage Results" MODIFIED="1576215049654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/product_inventory_system$Unittests_for_TestPISPurchaseOrders_TestPISPurchaseOrders.coverage" NAME="Unittests for TestPISPurchaseOrders.TestPISPurchaseOrders Coverage Results" MODIFIED="1576214723496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

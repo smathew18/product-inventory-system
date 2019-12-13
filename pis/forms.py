@@ -17,7 +17,7 @@ class SupplierForm(forms.ModelForm):
 class PurchaseOrderForm(forms.ModelForm):
    class Meta:
        model = PurchaseOrder
-       fields = ('orderId', 'productname', 'numberordered')
+       fields = ('user','orderId', 'productname', 'numberordered')
 
 
 class BillingOrderForm(forms.ModelForm):

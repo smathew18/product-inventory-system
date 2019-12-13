@@ -145,7 +145,7 @@ def supplier_new(request):
 
 @login_required
 def supplier_edit(request, pk):
-    supplier = get_object_or_404(Product, pk=pk)
+    supplier = get_object_or_404(Supplier, pk=pk)
     if request.method == "POST":
         form = SupplierForm(request.POST, instance=supplier)
         if form.is_valid():
